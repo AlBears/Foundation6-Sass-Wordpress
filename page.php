@@ -10,9 +10,6 @@
         <div class="medium-12 columns">
           <?php the_content(); ?>
         </div>
-
-
-
     </div>
 </section>
 
