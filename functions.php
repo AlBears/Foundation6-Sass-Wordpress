@@ -58,6 +58,8 @@ add_action('widgets_init', 'hotelspa_widgets');
 
 add_theme_support('post-thumbnails');
 
+update_option('medium_crop', 1);
+
 class Foundation_Walker extends Walker_Nav_Menu {
   function start_lvl(&$output, $depth=0, $args = array() )
   {

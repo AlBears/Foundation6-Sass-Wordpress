@@ -13,7 +13,7 @@
   <div class="medium-4 columns">
     <a href="<?php the_permalink(); ?>">
       <div class="room-image">
-        <?php the_post_thumbnail(); ?>
+        <?php the_post_thumbnail('medium'); ?>
         <div class="room-title">
           <h3><?php the_title(); ?></h3>
         </div>
