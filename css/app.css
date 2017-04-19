@@ -3760,3 +3760,14 @@ section.services .content-text {
       justify-content: center;
   -ms-flex-direction: column;
       flex-direction: column; }
+
+/** Contact **/
+.nf-field-container {
+  clear: none !important;
+  position: static !important; }
+
+input:disabled {
+  background: rgba(68, 114, 169, 0.8); }
+
+div.nf-form-fields-required {
+  text-align: center; }

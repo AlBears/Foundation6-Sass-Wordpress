@@ -261,3 +261,17 @@ section.services .content-text{
 	justify-content:center;
 	flex-direction:column;
 }
+
+/** Contact **/
+.nf-field-container {
+	clear: none!important;
+	position: static!important;
+}
+
+input:disabled {
+	background: rgba($primary-color, .8);
+}
+
+div.nf-form-fields-required {
+	text-align: center;
+}
